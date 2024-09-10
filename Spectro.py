@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load an audio file
-y, sr = librosa.load('secretaudio_1559007588454.wav')
+y, sr = librosa.load('Your Audio.wav')
 
 # Generate a spectrogram
 S = librosa.feature.melspectrogram(y=y, sr=sr)
